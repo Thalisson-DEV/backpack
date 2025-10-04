@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>backpack - sua mochila para o vestibular</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Estilos Customizados -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Cabeçalho -->
+    <header class="fixed top-0 left-0 right-0 z-50 glass-header">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="flex items-center space-x-3" aria-label="Página inicial do Backpack">
+                <img src="assets/logo-v1.png" alt="Logotipo do Backpack" class="h-7">
+            </a>
+            <div class="flex items-center space-x-6">
+                <a href="https://backpack-2l1e.onrender.com/" class="hidden md:block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-2 px-6 rounded-lg transition-transform transform hover:scale-105 duration-300 shadow-lg">
+                    Acessar a Plataforma
+                </a>
+                <button id="mobile-menu-btn" class="md:hidden text-gray-900" aria-label="Abrir menu de navegação" aria-expanded="false">
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
+                </button>
+            </div>
+        </div>
+        <!-- Menu Mobile -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+            <a href="https://backpack-2l1e.onrender.com/" class="mt-4 block text-center bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-2 px-5 rounded-lg transition">
+                Acessar a Plataforma
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Hero -->
+        <section class="hero-section relative pt-32 pb-24 text-gray-900 overflow-hidden">
+            <div class="blob blob1"></div>
+            <div class="blob blob2"></div>
+            <div class="container mx-auto px-6 text-center relative z-10">
+                <h1 class="text-4xl md:text-7xl font-extrabold leading-tight mb-4 animate-fade-in-up">
+                    Seu inglês para o vestibular, <span class="text-blue-600">finalmente em uma mochila só</span>.
+                </h1>
+                <p class="text-lg md:text-xl mb-8 text-gray-600 max-w-2xl mx-auto animate-fade-in-up" data-delay="200ms">
+                    O Backpack é a sua mochila de estudos digital. Tudo o que você precisa, do jeito que você entende, para gabaritar a prova e conquistar sua vaga.
+                </p>
+                <a href="https://backpack-2l1e.onrender.com/" class="cta-button bg-amber-400 text-gray-900 font-bold py-4 px-10 rounded-full text-lg hover:bg-amber-300 transform hover:scale-105 transition duration-300 ease-in-out shadow-xl animate-fade-in-up" data-delay="400ms">
+                    Bora estudar (de graça!)
+                </a>
+            </div>
+            <div class="angled-divider"></div>
+        </section>
+
+        <!-- Seção de Motivos -->
+        <section id="reasons" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto">
+                    <!-- Motivo 1 -->
+                    <div class="reason-item animate-fade-in-up">
+                        <div class="reason-number text-blue-500">1</div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Foco Total no Vestibular</h3>
+                            <p class="text-gray-600 leading-relaxed">Chega de enrolação. Nossa equipe seleciona a dedo os tópicos que mais caem nas provas. Você estuda o que realmente importa para garantir sua vaga.</p>
+                        </div>
+                    </div>
+                    <!-- Motivo 2 -->
+                    <div class="reason-item animate-fade-in-up">
+                        <div class="reason-number text-amber-500">2</div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Aprender Vira um Jogo</h3>
+                            <p class="text-gray-600 leading-relaxed">Com os BP Hypes (vídeos curtos e divertidos) e um sistema de conquistas, estudar deixa de ser chato. Acompanhe seu progresso e suba de nível!</p>
+                        </div>
+                    </div>
+                    <!-- Motivo 3 -->
+                    <div class="reason-item animate-fade-in-up">
+                        <div class="reason-number text-blue-500">3</div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Sua Mochila, Tudo em um Lugar</h3>
+                            <p class="text-gray-600 leading-relaxed">Esqueça os mil sites e materiais espalhados. O Backpack organiza tudo: teoria, simulados e um fórum pra trocar ideia com a galera.</p>
+                        </div>
+                    </div>
+                    <!-- Motivo 4 -->
+                    <div class="reason-item animate-fade-in-up">
+                        <div class="reason-number text-amber-500">4</div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Grátis de Verdade</h3>
+                            <p class="text-gray-600 leading-relaxed">Acreditamos que a educação deve ser acessível. Use as ferramentas essenciais de graça e só faça um upgrade se quiser turbinar ainda mais sua experiência.</p>
+                        </div>
+                    </div>
+                    <!-- Motivo 5 -->
+                    <div class="reason-item animate-fade-in-up">
+                        <div class="reason-number text-blue-500">5</div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Feito por Quem Entende</h3>
+                            <p class="text-gray-600 leading-relaxed">O conteúdo é criado e revisado por professores que conhecem de perto a realidade dos vestibulares brasileiros. Aqui, a informação é confiável.</p>
+                        </div>
+                    </div>
+                    <!-- Motivo 6 -->
+                    <div class="reason-item animate-fade-in-up">
+                        <div class="reason-number text-amber-500">6</div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Evolução que Você Vê</h3>
+                            <p class="text-gray-600 leading-relaxed">Com nossos relatórios de desempenho, você sabe exatamente onde está mandando bem e onde precisa de um reforço. Estudo inteligente é isso!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Seção de Planos de Assinatura -->
+        <section id="plans" class="py-24 bg-gray-900 text-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold animate-fade-in-up">Tudo gratuito, para todos!</h2>
+                    <p class="text-gray-300 mt-4 max-w-2xl mx-auto text-lg animate-fade-in-up" data-delay="150ms">
+                        Acreditamos que a educação deve ser acessível. Todo o conteúdo da nossa plataforma agora é 100% gratuito.
+                    </p>
+                </div>
+                <div class="plan-card animate-fade-in-up">
+                    <h3 class="text-xl font-bold text-blue-400">PLANO ÚNICO</h3>
+                    <p class="text-4xl font-extrabold my-4">R$ 0,00<span class="text-base font-normal text-gray-400">/mês</span></p>
+                    <ul class="mt-6 space-y-3 text-left">
+                        <li class="flex items-center"><span class="check-icon">✔</span> Acesso a todas as aulas e resumos</li>
+                        <li class="flex items-center"><span class="check-icon">✔</span> Simulados ilimitados</li>
+                        <li class="flex items-center"><span class="check-icon">✔</span> Zero anúncios</li>
+                    </ul>
+                    <button class="plan-button" onclick="window.location.href='https://backpack-2l1e.onrender.com/'">Bora estudar (de graça!)</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de FAQ -->
+        <section id="faq" class="py-24 bg-white">
+            <div class="container mx-auto px-6 max-w-3xl">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 animate-fade-in-up">Ainda tem dúvidas?</h2>
+                    <p class="text-gray-600 mt-4 text-lg animate-fade-in-up" data-delay="150ms">A gente responde as principais aqui.</p>
+                </div>
+                <div class="space-y-4">
+                    <!-- Pergunta 1 -->
+                    <div class="faq-item animate-fade-in-up">
+                        <button class="faq-question">
+                            <span>O Backpack é realmente de graça?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Sim! Todo o conteúdo da nossa plataforma agora é 100% gratuito. Acreditamos que a educação deve ser acessível para todos.</p>
+                        </div>
+                    </div>
+                    <!-- Pergunta 2 -->
+                    <div class="faq-item animate-fade-in-up">
+                        <button class="faq-question">
+                            <span>O conteúdo serve para o meu vestibular específico?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Nosso conteúdo é focado nos temas de inglês que mais aparecem nos principais vestibulares do Brasil, incluindo ENEM. Cobrimos desde a gramática essencial até a interpretação de texto, então com certeza vai te ajudar!</p>
+                        </div>
+                    </div>
+                     <!-- Pergunta 3 -->
+                    <div class="faq-item animate-fade-in-up">
+                        <button class="faq-question">
+                            <span>Como funcionam as conquistas?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>É um sistema de gamificação para te manter motivado! Ao completar aulas, acertar simulados e manter uma rotina de estudos, você desbloqueia medalhas e sobe de nível no seu perfil. É uma forma divertida de ver sua evolução.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-6 py-10 text-center">
+            <h3 class="text-2xl font-bold text-amber-400">E aí, bora começar?</h3>
+            <p class="text-gray-300 my-4">Sua vaga na faculdade está a um passo de distância.</p>
+            <a href="https://backpack-2l1e.onrender.com/" class="cta-button bg-amber-400 text-gray-900 font-bold py-3 px-8 rounded-full text-lg hover:bg-amber-300 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg">
+                Acessar a Plataforma
+            </a>
+            <p class="text-sm text-gray-500 mt-8">&copy; 2025 Projeto Backpack. Desenvolvido com ☕ por Thalisson Damião.</p>
+        </div>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <button id="back-to-top-btn" aria-label="Voltar ao topo" class="fixed bottom-5 right-5 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg transition-all duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+
+    <!-- Banner de Cookies -->
+    <div id="cookie-banner" role="alert" class="cookie-banner-hidden">
+        <div class="cookie-content">
+            <span class="cookie-icon">🍪</span>
+            <p class="cookie-text">Nós usamos cookies para garantir a melhor experiência em nossa plataforma. Relaxa, é só pra tudo funcionar direitinho!</p>
+        </div>
+        <button id="cookie-dismiss-btn" aria-label="Entendi, fechar aviso" class="cookie-button">
+            Beleza!
+        </button>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
